@@ -3,4 +3,9 @@
     <declare-styleable name="TemplateTextView">
         <attr name="template" format="string"/>
     </declare-styleable>
+
+    <declare-styleable name="MyGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+
 </resources>

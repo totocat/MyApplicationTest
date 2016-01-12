@@ -17,4 +17,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <HorizontalScrollView
+        android:id="@+id/imagescrollview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout android:id="@+id/gallerylayout"
+                      android:layout_width="match_parent"
+                      android:baselineAligned="false"
+                      android:orientation="horizontal"
+                      android:layout_height="150dp">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/pager"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="75dp">
+    </android.support.v4.view.ViewPager>
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:id="@+id/pager3"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="75dp">
+    </android.support.v4.view.ViewPager>
 </LinearLayout>

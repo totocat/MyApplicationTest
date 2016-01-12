@@ -191,6 +191,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        // Gallery view test
+        if (id == R.id.action_gallery) {
+            Log.d(LOG_TAG, "action_gallery Test....");
+            Intent galleryActivity = new Intent(getApplicationContext(), GalleryActivity.class);
+            startActivity(galleryActivity);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

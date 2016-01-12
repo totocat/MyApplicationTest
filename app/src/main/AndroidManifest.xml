@@ -52,6 +52,8 @@
         <activity android:name=".SimpleFragmentActivity"/>
         <activity android:name=".ViewFlipperActivity">
         </activity>
+        <activity android:name=".GalleryActivity">
+        </activity>
     </application>
 
 </manifest>
