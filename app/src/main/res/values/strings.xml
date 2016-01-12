@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Edward:FB test -->
+    <string name="facebook_app_id">900475546714765</string>
+
+    <!-- RecyclerView Test-->
+    <string name="action_recyclerviewTest">Recyclerview Test</string>
+
+    <!-- Android Design Test-->
+    <string name="action_designTest">Design Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nav_item_attachment">Attachment</string>
+    <string name="nav_item_images">Images</string>
+    <string name="nav_item_location">My Location</string>
+    <string name="nav_sub_menu">Sub Menu</string>
+    <string name="nav_sub_menu_item01">Sub Menu Item 1</string>
+    <string name="nav_sub_menu_item02">Sub Menu Item 2</string>
+    <string name="drawer_header_text">Drawer Header</string>
+    <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+    <!--  Customized a vew test-->
+    <string name="action_myviewTest">MyView Test</string>
+    <string name="duration_format"> <Data><![CDATA[ Duration: <strong><font color="red">%s</font></strong> ]]> </Data></string>
+
+    <!--  Transitional fragment test-->
+    <string name="action_transitionFramentTest">TransFrag Test</string>
+    <string name="addItemHint">New To Do Item</string>
+    <string name="addItemContentDescription">New To Do Item(ContentDescription)</string>
+
+    <string name="country_prompt">Choose a country  </string>
+    <string-array name="country_ary">
+        <item>China</item>
+        <item>UK</item>
+        <item>USA</item>
+        <item>Singapore</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

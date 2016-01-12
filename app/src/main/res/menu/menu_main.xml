@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pubu.myapplication.MainActivity" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_viewFlipper"
+          android:title="ViewFlipper Test"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_simpleFrament"
+        android:title="Simple Frag TEst"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_transitionFrament"
+        android:title="@string/action_transitionFramentTest"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_myview"
+        android:title="@string/action_myviewTest"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_design"
+        android:title="@string/action_designTest"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_recyclerview"
+        android:title="@string/action_recyclerviewTest"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+
+</menu>
