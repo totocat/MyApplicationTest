@@ -2,18 +2,18 @@ package com.example.pubu.myapplication;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
+
 
 public class GalleryActivity extends AppCompatActivity {
     String imageURL = "http://192.168.1.75:8080/spring4-sample/resources/img/";
@@ -23,6 +23,7 @@ public class GalleryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+
 
         // Note that Gallery view is deprecated in Android 4.1---
         Gallery gallery = (Gallery) findViewById(R.id.gallery1);
@@ -34,7 +35,7 @@ public class GalleryActivity extends AppCompatActivity {
                 // display the images selected
                 ImageView imageView = (ImageView) findViewById(R.id.image1);
                 imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-                Picasso.with(getApplicationContext()).load(imageURL + imageArray[position] ).placeholder(R.drawable.placeholder).into(imageView);
+                Picasso.with(getBaseContext()).load(imageURL + imageArray[position] ).placeholder(R.drawable.placeholder).into(imageView);
             }
         });
     }

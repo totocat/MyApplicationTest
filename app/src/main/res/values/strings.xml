@@ -6,10 +6,10 @@
     <string name="facebook_app_id">900475546714765</string>
 
     <!-- RecyclerView Test-->
-    <string name="action_recyclerviewTest">Recyclerview Test</string>
+    <string name="action_recyclerviewTest">Recyclerview</string>
 
     <!-- Android Design Test-->
-    <string name="action_designTest">Design Test</string>
+    <string name="action_designTest">Design</string>
     <string name="hello_world">Hello world!</string>
     <string name="nav_item_attachment">Attachment</string>
     <string name="nav_item_images">Images</string>
@@ -22,11 +22,11 @@
     <string name="title_activity_second">SecondActivity</string>
 
     <!--  Customized a vew test-->
-    <string name="action_myviewTest">MyView Test</string>
+    <string name="action_myviewTest">MyView</string>
     <string name="duration_format"> <Data><![CDATA[ Duration: <strong><font color="red">%s</font></strong> ]]> </Data></string>
 
     <!--  Transitional fragment test-->
-    <string name="action_transitionFramentTest">TransFrag Test</string>
+    <string name="action_transitionFramentTest">TransFrag</string>
     <string name="addItemHint">New To Do Item</string>
     <string name="addItemContentDescription">New To Do Item(ContentDescription)</string>
 

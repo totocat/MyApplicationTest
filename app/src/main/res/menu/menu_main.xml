@@ -3,18 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.pubu.myapplication.MainActivity" >
 
+    <item android:id="@+id/action_expandableListView"
+          android:title="Expandable List"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_dragDrop"
+          android:title="Drag and Drop"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_imgSlide"
+          android:title="Image Slide"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_cvs"
+          android:title="CVS"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
     <item android:id="@+id/action_gallery"
-          android:title="Gallery Test"
+          android:title="Gallery"
           android:orderInCategory="1"
           app:showAsAction="never" />
 
     <item android:id="@+id/action_viewFlipper"
-          android:title="ViewFlipper Test"
+          android:title="ViewFlipper"
           android:orderInCategory="1"
           app:showAsAction="never" />
 
     <item android:id="@+id/action_simpleFrament"
-        android:title="Simple Frag TEst"
+        android:title="Simple Frag"
         android:orderInCategory="1"
         app:showAsAction="never" />
 

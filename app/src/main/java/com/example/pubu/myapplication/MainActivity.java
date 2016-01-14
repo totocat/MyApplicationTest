@@ -199,6 +199,38 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        // CVSview test
+        if (id == R.id.action_cvs) {
+            Log.d(LOG_TAG, "action_cvs Test....");
+            Intent cvsActivity = new Intent(getApplicationContext(), CvsActivity.class);
+            startActivity(cvsActivity);
+            return true;
+        }
+
+        // Image Slide
+        if (id == R.id.action_imgSlide) {
+            Log.d(LOG_TAG, "Image Slide Test....");
+            Intent imgSlideActivity = new Intent(getApplicationContext(), ImgSlideActivity.class);
+            startActivity(imgSlideActivity);
+            return true;
+        }
+
+        // Image Slide
+        if (id == R.id.action_dragDrop) {
+            Log.d(LOG_TAG, "Drag and Drop Test....");
+            Intent dragDropActivity = new Intent(getApplicationContext(), DragDropActivity.class);
+            startActivity(dragDropActivity);
+            return true;
+        }
+
+        // Image Slide
+        if (id == R.id.action_expandableListView) {
+            Log.d(LOG_TAG, "Expandable ListView Test....");
+            Intent expandableListViewActivity = new Intent(getApplicationContext(), ExpandableListViewActivity.class);
+            startActivity(expandableListViewActivity);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

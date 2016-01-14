@@ -54,6 +54,14 @@
         </activity>
         <activity android:name=".GalleryActivity">
         </activity>
+        <activity android:name=".CvsActivity">
+        </activity>
+        <activity android:name=".ImgSlideActivity">
+        </activity>
+        <activity android:name=".DragDropActivity">
+        </activity>
+        <activity android:name=".ExpandableListViewActivity">
+        </activity>
     </application>
 
 </manifest>
