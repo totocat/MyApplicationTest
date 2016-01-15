@@ -231,6 +231,30 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        // Card View
+        if (id == R.id.action_cardView) {
+            Log.d(LOG_TAG, "Card View Test....");
+            Intent cardViewActivity = new Intent(getApplicationContext(), CardListActivity.class);
+            startActivity(cardViewActivity);
+            return true;
+        }
+
+        // Login
+        if (id == R.id.action_login) {
+            Log.d(LOG_TAG, "Login Test....");
+            Intent loginActivity = new Intent(getApplicationContext(), LoginActivity.class);
+            startActivity(loginActivity);
+            return true;
+        }
+
+        // Login
+        if (id == R.id.action_chat_bubble) {
+            Log.d(LOG_TAG, "Chat Bubble....");
+            Intent chatBubbleActivity = new Intent(getApplicationContext(), ChatBubbleActivity.class);
+            startActivity(chatBubbleActivity);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

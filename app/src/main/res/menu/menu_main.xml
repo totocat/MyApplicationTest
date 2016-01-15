@@ -3,6 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.pubu.myapplication.MainActivity" >
 
+    <item android:id="@+id/action_chat_bubble"
+          android:title="Chat Bubble"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_login"
+          android:title="Login"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_cardView"
+          android:title="Card View"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
     <item android:id="@+id/action_expandableListView"
           android:title="Expandable List"
           android:orderInCategory="1"
