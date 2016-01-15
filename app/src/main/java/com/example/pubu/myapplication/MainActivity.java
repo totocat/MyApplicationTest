@@ -255,6 +255,14 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        // Search on ActionBar
+        if (id == R.id.action_searchActionBar) {
+            Log.d(LOG_TAG, "Chat Bubble....");
+            Intent searchActionBarActivity = new Intent(getApplicationContext(), SearchActionBarActivity.class);
+            startActivity(searchActionBarActivity);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 

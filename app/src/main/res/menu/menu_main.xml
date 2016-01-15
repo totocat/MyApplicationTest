@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.pubu.myapplication.MainActivity" >
 
+    <item android:id="@+id/action_searchActionBar"
+          android:title="Search ActionBar"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
     <item android:id="@+id/action_chat_bubble"
           android:title="Chat Bubble"
           android:orderInCategory="1"

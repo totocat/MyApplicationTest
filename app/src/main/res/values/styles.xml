@@ -38,5 +38,20 @@
     </style>
     <color name="accent">#ffffff</color>
 
+    <!-- for Searchable Theme -->
+    <style name = "SearchBaseTheme" parent="android:Theme.Light"/>
+    <style name = "SearchTheme" parent="SearchBaseTheme"/>
+    <style name="Theme.SearchCompatTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/searchWinBackground</item>
+        <item name="android:actionBarStyle">@style/searchActionBar</item>
+        <item name="actionBarStyle">@style/searchActionBar</item>
+    </style>
+    <style name="searchActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/searchBackground</item>
+        <item name="background">@color/searchBackground</item>
+    </style>
+    <color name="searchWinBackground">#98cb4a</color>
+    <color name="searchBackground">#f76d3c</color>
+
 
 </resources>
