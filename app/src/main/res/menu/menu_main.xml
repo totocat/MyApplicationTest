@@ -3,6 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.pubu.myapplication.MainActivity" >
 
+    <item android:id="@+id/action_todo_list"
+          android:title="TODO List"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_flashlight"
+          android:title="Flashlight(old)"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_alarm_clock"
+          android:title="Alarm Clock"
+          android:orderInCategory="1"
+          app:showAsAction="never" />
+
     <item android:id="@+id/action_searchActionBar"
           android:title="Search ActionBar"
           android:orderInCategory="1"

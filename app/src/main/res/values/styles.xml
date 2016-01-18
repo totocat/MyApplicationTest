@@ -22,34 +22,43 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 
     <!--  for login activity -->
     <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
+
     <style name="RobotoAutoCompleteTextViewStyle" parent="android:Widget.AutoCompleteTextView">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
+
     <style name="RobotoEditTextStyle" parent="android:Widget.EditText">
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
+
     <color name="accent">#ffffff</color>
 
     <!-- for Searchable Theme -->
-    <style name = "SearchBaseTheme" parent="android:Theme.Light"/>
-    <style name = "SearchTheme" parent="SearchBaseTheme"/>
+    <style name="SearchBaseTheme" parent="android:Theme.Light"/>
+
+    <style name="SearchTheme" parent="SearchBaseTheme"/>
+
     <style name="Theme.SearchCompatTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowBackground">@color/searchWinBackground</item>
         <item name="android:actionBarStyle">@style/searchActionBar</item>
         <item name="actionBarStyle">@style/searchActionBar</item>
     </style>
+
     <style name="searchActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@color/searchBackground</item>
         <item name="background">@color/searchBackground</item>
     </style>
+
     <color name="searchWinBackground">#98cb4a</color>
     <color name="searchBackground">#f76d3c</color>
 

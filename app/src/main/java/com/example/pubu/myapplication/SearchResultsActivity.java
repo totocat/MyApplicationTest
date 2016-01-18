@@ -3,12 +3,15 @@ package com.example.pubu.myapplication;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
+import android.support.v4.view.GravityCompat;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 public class SearchResultsActivity extends AppCompatActivity {
@@ -26,6 +29,8 @@ public class SearchResultsActivity extends AppCompatActivity {
         // Setup Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         //deal with the search string from the "search default" activity
         resultTextView = (TextView) findViewById(R.id.result_text_view);
@@ -60,6 +65,27 @@ public class SearchResultsActivity extends AppCompatActivity {
             String queryString = intent.getStringExtra(SearchManager.QUERY);
             resultTextView.setText(queryString);
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        switch(id) {
+            case android.R.id.home:
+                Intent searchActionBarActivity = new Intent(getApplicationContext(), SearchActionBarActivity.class);
+                startActivity(searchActionBarActivity);
+                return true;
+
+            case R.id.action_settings_design:
+                Log.d(TAG, "Action Setting Design.....");
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }

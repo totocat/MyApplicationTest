@@ -263,6 +263,29 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
 
+        // Alarm Clock
+        if (id == R.id.action_alarm_clock) {
+            Log.d(LOG_TAG, "Alarm Clock....");
+            Intent alarmClockActivity = new Intent(getApplicationContext(), AlarmClockActivity.class);
+            startActivity(alarmClockActivity);
+            return true;
+        }
+
+        // Camera Flash
+        if (id == R.id.action_flashlight) {
+            Log.d(LOG_TAG, "Alarm Clock....");
+            Intent flashlightActivity = new Intent(getApplicationContext(), FlashlightActivity.class);
+            startActivity(flashlightActivity);
+            return true;
+        }
+
+        // TODO list
+        if (id == R.id.action_todo_list) {
+            Log.d(LOG_TAG, "Todo list.");
+            Intent todoListActivity = new Intent(getApplicationContext(), TodoListActivity.class);
+            startActivity(todoListActivity);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 

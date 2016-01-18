@@ -39,10 +39,11 @@ public class SearchActionBarActivity extends AppCompatActivity {
         // Associate searchable configuration with the SearchView
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         SearchView searchView = (SearchView) menu.findItem(R.id.menu_search_default).getActionView();
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-       // searchView.setSubmitButtonEnabled(true);
-//        ComponentName cn = new ComponentName(this, SearchResultsActivity.class);
-//        searchView.setSearchableInfo(searchManager.getSearchableInfo(cn));
+
+        //searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+        // becasue this activity is not the searchable activity
+        ComponentName cn = new ComponentName(this, SearchResultsActivity.class);
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(cn));
 
         return true;
     }
